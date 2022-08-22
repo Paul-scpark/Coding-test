@@ -5,6 +5,7 @@
 
 def solution(survey, choices):
     
+    # 미리 같은 유형 내에서 사전 순서대로 정렬 (RT, CF, JM, AN)
     dic = {'R': 0, 'T': 0, 'C': 0, 'F': 0,
            'J': 0, 'M': 0, 'A': 0, 'N': 0}
     
@@ -19,10 +20,9 @@ def solution(survey, choices):
     while True:
         if i == len(key_lst): break
         
-        if dic[key_lst[i]] >= dic[key_lst[i + 1]]: 
-            answer += key_lst[i]
-        else: 
-            answer += key_lst[i + 1]
+        # 미리 사전 순서로 정렬해놓았으니, 같은 항목이면 더 빠른 인덱스 값을 반환
+        if dic[key_lst[i]] >= dic[key_lst[i + 1]]: answer += key_lst[i]
+        else: answer += key_lst[i + 1]
         i += 2
         
     return answer
