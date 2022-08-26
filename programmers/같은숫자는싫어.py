@@ -1,5 +1,6 @@
 # 프로그래머스 코딩테스트 연습문제 (스택/큐) - python
 
+### 체감 난이도: 1
 ### while 무한루프 상에서의 인덱싱, 기본적인 스택/큐 구조
 ### https://school.programmers.co.kr/learn/courses/30/lessons/12906?language=python3
 
