@@ -1,5 +1,6 @@
 # 2022 KAKAO BLIND RECRUITMENT - python
 
+### 체감 난이도: 2
 ### 리스트 및 딕셔너리 자료 구조 활용, 리스트 내 중복 제거 (set), numpy 활용 (중복 제거, 인덱싱), 교집합 (intersection), list/dictionary comprehension
 ### https://school.programmers.co.kr/learn/courses/30/lessons/92334?language=python3
 

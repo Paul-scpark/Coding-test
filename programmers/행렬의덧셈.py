@@ -1,5 +1,6 @@
 # 프로그래머스 코딩테스트 연습문제 - python
 
+### 체감 난이도: 1
 ### numpy를 list로 변환 (tolist)
 ### https://school.programmers.co.kr/learn/courses/30/lessons/12950?language=python3
 

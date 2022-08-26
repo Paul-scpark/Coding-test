@@ -1,5 +1,6 @@
 # 2022 KAKAO TECH INTERNSHIP - python
 
+### 체감 난이도: 2
 ### 리스트 및 딕셔너리 자료 구조 활용, zip 함수 활용
 ### https://school.programmers.co.kr/learn/courses/30/lessons/118666?language=python3
 
