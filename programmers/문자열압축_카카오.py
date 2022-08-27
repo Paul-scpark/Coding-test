@@ -34,9 +34,8 @@ def solution(s):
                     answer = find_answer(count, prev, answer)
                 count = 1
             
-            # 다음 루프에서 비교하기 위해 이번 단어를 prev로 할당
-            prev = now
-            idx += max_len
+            prev = now      # 다음 루프에서 비교하기 위해 이번 단어를 prev로 할당
+            idx += max_len  # max_len 만큼 주어진 단어를 인덱싱하기 위해 idx 값 수정
         
         # 3-3. 가장 마지막 루프에서 나온 결과에 대해서도 answer에 추가
         answer = find_answer(count, prev, answer)
