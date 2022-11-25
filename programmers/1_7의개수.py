@@ -10,4 +10,4 @@ def solution(array):
     text = ''.join(list(map(str, array)))
     return int((np.array(list(text)) == '7').sum())
 
-    # return ''.join(map(str, array)).count('7')수
+    # return ''.join(map(str, array)).count('7')
