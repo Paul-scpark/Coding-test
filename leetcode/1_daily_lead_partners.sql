@@ -1,0 +1,13 @@
+# Leetcode (SQL) 1693. Daily Leads and Partners
+
+### 체감 난이도: 1
+### COUNT, DISTINCT 활용
+### https://leetcode.com/problems/daily-leads-and-partners/
+
+SELECT 
+    date_id, 
+    make_name,
+    COUNT(DISTINCT lead_id) AS unique_leads,
+    COUNT(DISTINCT partner_id) AS unique_partners
+FROM DailySales
+GROUP BY date_id, make_name
