@@ -59,3 +59,7 @@ USING(<KEY_COL>)                               # ON A.KEY_COL = B.KEY_COL과 동
 3. NULL 관련 함수 (IS NULL, IS NOT NULL, IFNULL)
 - `IFNULL(COL_NAME, "No name")`: COL_NAME 칼럼의 값이 NULL 이라면, "No name"을 출력
 - `IS NULL`, `IS NOT NULL`: NULL이거나, 아니거나 하는 조건을 추가할 때는 `=`이 아닌 `IS` 키워드를 사용해야 함
+
+4. 문자열 다루기 (SUBSTR, COCNAT)
+- `SUBSTR(대상 문자열, 시작 위치, 길이)`: 대상 문자열에 대하여 시작 위치의 index 부터 주어진 길이만큼 반환
+- `CONCAT(붙이고자 하는 문자열1, 붙이고자 하는 문자열2, ...)`: CONCAT 안의 파라미터를 모두 합쳐서 하나의 문자열로 반환
